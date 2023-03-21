@@ -1,0 +1,99 @@
+main {
+    padding: 5%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/*main content*/
+main .main-content {
+    display: flex;
+    flex-direction: column;
+}
+
+main .main-content h2 {
+    margin-bottom: 2%;
+    font-size: 2.2rem;
+}
+
+main .main-content .text {
+    margin-bottom: 5%;
+}
+
+main .main-content .text p {
+    width: 75%;
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+/* CARDS=============== */
+
+main .techs .cards-container {
+    display: flex;
+    align-items: center;
+}
+
+main .techs .cards-container .card {
+    width: 5rem;
+    height: 5rem;
+    padding: 0.5rem;
+    background-color: #eee;
+    border-radius: 8px;
+    margin-left: 0.9em;
+    margin-right: 0.9em;
+    cursor: pointer;
+
+    margin-right: 1.5rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    transition: box-shadow 0.2s ease-in-out;
+}
+
+main .techs .cards-container .card img {
+    width: 80%;
+}
+
+main .techs .cards-container .card:hover {
+    box-shadow: 0px 0px 8px #00e0ff;
+}
+
+/* Figure ========== */
+main figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+main figure img {
+    max-width: 400px;
+    max-height: 400px;
+    width: auto;
+    height: auto;
+    border-radius: 100px;
+    
+    cursor: pointer;
+    margin-bottom: 6%;
+    border: 1px #00e0ff solid;
+    transition: 0.2s ease-in-out;
+}
+
+main figure img:hover {
+    box-shadow: 0px 0px 6px #00e0ff;
+}
+
+/*Footer =======*/
+footer {
+    background-color: #222;
+    padding: 0.5rem;
+    text-align: center;
+    width: 100%;
+
+    position: fixed;
+
+    bottom: 0;
+}
